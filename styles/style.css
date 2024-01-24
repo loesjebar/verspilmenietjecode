@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1 {
+    font-family: hegante-black;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12vw;
+    background-color: #f5c6b5;
+}
+
+h2 {
+    color: rgb(247, 251, 247);
+    background-color: #f5c6b5;
+    font-weight: 800;
+    font-size: medium;
+    padding: 20px;
+}
+
+h3 {
+    color: #253822;
+    padding: 0 0 10px 0;
+}
+a:visited {
+    color: white;
+}
+section a:visited {
+    color: #f5c6b5;
+}
+
+article a:visited {
+    color: #f5c6b5;
+}
+
+.button {
+    font-size: medium;
+}
+
+header {
+    background-color: white;
+    background-image: url('../images/overzichtwit.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+header h1 {
+    margin-bottom: 10px;  
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+section {
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+section>p {
+    padding: 15px;
+}
+
+header nav ul {
+    column-gap: 20px;
+    list-style: none;
+    list-style-type: none;
+    padding: 100px 0;
+    margin: 0;
+}
+.googlemaps {
+align-items: center;
+justify-content: center;
+padding: 1em 2em 6em 2em;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 150px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    line-height: 50px; /* Vertically centers text */
+    text-align: center; /* Horizontally centers text */
+    margin-right: 20px;
+}
+
+header nav a {
+
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    background-color: #f5c6b5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    background-color: #c1cb5b;
+}
+
+nav ul li a.active {
+    background-color: #253822;
+}
+
+article {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.blockrow {
+    display: flex;
+}
+
+.myblock {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.myblock h3 {
+    color: #253822;
+}
+
+.myblock p {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #253822;
+    padding: 20px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+    max-width: 100px;
+}
