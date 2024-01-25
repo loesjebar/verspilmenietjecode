@@ -11,9 +11,9 @@ body {
 h1 {
     font-family: hegante-black;
     color: #ffffff;
+    background-color: rgb(245, 200, 184, 0.5);
     font-weight: 800;
     font-size: 12vw;
-    background-color: #f5c6b5;
 }
 
 h2 {
@@ -25,12 +25,20 @@ h2 {
 }
 
 h3 {
-    color: #253822;
-    padding: 0 0 10px 0;
+    color: rgb(38, 56, 36, 0.9);
+    padding: 20px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:visited {
     color: white;
 }
+
 section a:visited {
     color: #f5c6b5;
 }
@@ -57,25 +65,6 @@ header nav {
     align-items: center;
     margin-bottom: 10px;
 }
-header h1 {
-    margin-bottom: 10px;  
-    padding: 20px 0;
-}
-
-main {
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-section {
-    margin: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-}
-
-section>p {
-    padding: 15px;
-}
 
 header nav ul {
     column-gap: 20px;
@@ -84,51 +73,70 @@ header nav ul {
     padding: 100px 0;
     margin: 0;
 }
-.googlemaps {
-align-items: center;
-justify-content: center;
-padding: 1em 2em 6em 2em;
-}
-iframe{
-    width: 100%;
-    height: 450px;
+
+header h1 {
+    margin-bottom: 10px;
+    padding: 20px 0;
 }
 
-nav ul li {
+header nav ul li {
     padding: 10px;
     margin: 10px 0;
     display: inline-block;
-    width: 150px; /* Fixed width */
-    height: 50px; /* Fixed height */
-    line-height: 50px; /* Vertically centers text */
-    text-align: center; /* Horizontally centers text */
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
     margin-right: 20px;
 }
 
 header nav a {
-
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
-    font-size: larger;
-    background-color: #f5c6b5;
+    font-size: x-large;
+    background-color: #fc9c79;
     color: white;
     border: none;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
-footer nav ul{
-    display: flex;
-    justify-content: center;
+main {
+    padding: 10px;
+    background-color: #ffffff;
 }
 
-nav ul li a:hover {
-    background-color: #c1cb5b;
+section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+section>p {
+    padding: 20px;
+}
+
+section ul,
+ol {
+    padding-left: 40px;
+}
+
+
+.googlemaps {
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em 6em 2em;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
 }
 
 nav ul li a.active {
-    background-color: #253822;
+    background-color: #6bc7a5;
 }
 
 article {
@@ -139,29 +147,6 @@ article {
     margin: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-}
-
-.content {
-    padding-left: 20px;
-}
-
-.blockrow {
-    display: flex;
-}
-
-.myblock {
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-.myblock h3 {
-    color: #253822;
-}
-
-.myblock p {
-    font-style: italic;
 }
 
 .container {
@@ -176,7 +161,33 @@ footer {
 }
 
 footer img {
-    width: 100px;
-    height: auto;
-    max-width: 100px;
+    max-width: 100%;
+}
+
+footer p {
+    color: white;
+    font-size: small;
+}
+
+footer nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ footer a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
